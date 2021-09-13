@@ -45,6 +45,7 @@ The fifth step was to perform Hyperparameter Optimization on our model. A range 
 The main aim was to reduce the False Positives and the False Negatives. Model performed really good and validated based on classification report, confusion matrix and accuracy score.
 
 The final step was to save the model as a pickle file to reuse it again for the Deployment purpose. Joblib was used to dump the model at the desired location.
+The "Heart Disease Prediction.ipynb" file contains all these informations.
 
 ### Deployment Architecture:
 The model was deployed locally (port 5000). The backend part of the application was made using Flask and for the frotend part HTML and CSS was used.
