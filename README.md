@@ -80,7 +80,12 @@ python app.py
      - [ ] Azure
      - [ ] Heroku
      - [ ] AWS
-     
+
+### A Glimpse of the application
+![Screenshot (149)](https://user-images.githubusercontent.com/75041273/133073173-c67f9e00-9ffc-42a5-83d0-04f69eda3f04.png)
+![Screenshot (150)](https://user-images.githubusercontent.com/75041273/133073205-e421f491-1db9-45e7-9c4d-52d4acf151b8.png)
+![Screenshot (151)](https://user-images.githubusercontent.com/75041273/133073229-94ea67ca-905a-4dc2-b73b-c90f6c251390.png)
+
 ### Technology Stack
 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen" /> <img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" /> ![Seaborn](https://img.shields.io/badge/Seaborn-%230C55A5.svg?style=for-the-badge&logo=seaborn&logoColor=%white)  <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /> <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" /> <img src="https://img.shields.io/badge/conda-342B029.svg?&style=for-the-badge&logo=anaconda&logoColor=white"/> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" />  <img src="https://img.shields.io/badge/matplotlib-342B029.svg?&style=for-the-badge&logo=matplotlib&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" /> <img src="https://img.shields.io/badge/Spyder-838485?style=for-the-badge&logo=spyder%20ide&logoColor=maroon" />
