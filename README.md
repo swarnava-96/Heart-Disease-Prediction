@@ -78,7 +78,7 @@ python app.py
 ![Screenshot (151)](https://user-images.githubusercontent.com/75041273/133073229-94ea67ca-905a-4dc2-b73b-c90f6c251390.png)
 
 ### Further Changes to be Done:
-- [ ] Including more features.
+- [ ] Including more features in the model, that might increase accuracy. 
 - [ ] Deploying the Web Application on Cloud.
      - [ ] Google Cloud 
      - [ ] Azure
