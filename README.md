@@ -2,7 +2,7 @@
 
 #### Goal: To create a POC using Flask, HTML and CSS for predicting whether a person is suffering from a Heart Disease or not, implementing Machine Learning algorithm.
 
-#### About the Data set: 
+### About the Data set: 
 This is a machine learning project where we will predict whether a person is suffering from a heart disease or not. 
 The dataset was downloaded from [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci). The dataset has 13 independent features like:
 1. age
@@ -22,7 +22,7 @@ The dataset was downloaded from [Kaggle](https://www.kaggle.com/ronitf/heart-dis
 The target column says whether the person is having the disease or not based on the above features.
 The target has two values 1(having the diease) and 0(not having the disease). A binary classification problem statement.
 
-#### Project Description:
+### Project Description:
 After loading the dataset("heart.csv") the first step was to perform an extensive Exploratory Data Analysis(EDA).
 The EDA part comprises of creating countplots for the target feature to check whether the dataset is balanced or not.
 It was a balanced dataset. Density plots were made to check the distribution of each features.
@@ -46,11 +46,11 @@ The main aim was to reduce the False Positives and the False Negatives. Model pe
 
 The final step was to save the model as a pickle file to reuse it again for the Deployment purpose. Joblib was used to dump the model at the desired location.
 
-#### Deployment Architecture:
+### Deployment Architecture:
 The model was deployed locally (port 5000). The backend part of the application was made using Flask and for the frotend part HTML and CSS was used.
 I have not focussed much on the frontend as I am not that good at it. The file "app.py" contains the entire flask code and inside the templates folder, "heart.html" contains the homepage and "result.html" contains the result page. 
 
-## Installation
+### Installation
 The Code is written in Python 3.7.3 If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
 
 ##### 1. First create a virtual environment by using this command:
