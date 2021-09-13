@@ -4,7 +4,7 @@
 
 #### About the Data set: 
 This is a machine learning project where we will predict whether a person is suffering from a heart disease or not. 
-The dataset was downloaded from Kaggle. The dataset has 13 independent features like:
+The dataset was downloaded from [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci). The dataset has 13 independent features like:
 1. age
 2. sex
 3. chest pain type (4 values)
