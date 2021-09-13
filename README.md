@@ -73,6 +73,11 @@ python app.py
 ```
 ##### Make sure to change the directory to the root folder.  
 
+### A Glimpse of the application
+![Screenshot (149)](https://user-images.githubusercontent.com/75041273/133073173-c67f9e00-9ffc-42a5-83d0-04f69eda3f04.png)
+![Screenshot (150)](https://user-images.githubusercontent.com/75041273/133073205-e421f491-1db9-45e7-9c4d-52d4acf151b8.png)
+![Screenshot (151)](https://user-images.githubusercontent.com/75041273/133073229-94ea67ca-905a-4dc2-b73b-c90f6c251390.png)
+
 ### Further Changes to be Done
 - [ ] Including more features.
 - [ ] Deploying the Web Application on Cloud.
@@ -80,11 +85,6 @@ python app.py
      - [ ] Azure
      - [ ] Heroku
      - [ ] AWS
-
-### A Glimpse of the application
-![Screenshot (149)](https://user-images.githubusercontent.com/75041273/133073173-c67f9e00-9ffc-42a5-83d0-04f69eda3f04.png)
-![Screenshot (150)](https://user-images.githubusercontent.com/75041273/133073205-e421f491-1db9-45e7-9c4d-52d4acf151b8.png)
-![Screenshot (151)](https://user-images.githubusercontent.com/75041273/133073229-94ea67ca-905a-4dc2-b73b-c90f6c251390.png)
 
 ### Technology Stack
 
