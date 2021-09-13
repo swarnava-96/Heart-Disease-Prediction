@@ -49,3 +49,24 @@ The final step was to save the model as a pickle file to reuse it again for the 
 #### Deployment Architecture:
 The model was deployed locally (port 5000). The backend part of the application was made using Flask and for the frotend part HTML and CSS was used.
 I have not focussed much on the frontend as I am not that good at it. The file "app.py" contains the entire flask code and inside the templates folder, "heart.html" contains the homepage and "result.html" contains the result page. 
+
+## Installation
+The Code is written in Python 3.7.3 If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
+
+##### 1. First create a virtual environment by using this command:
+```bash
+conda create -n myenv python=3.7
+```
+##### 2. Activate the environment using the below command:
+```bash
+conda activate myenv
+```
+##### 3. Then install all the packages by using the following command
+```bash
+pip install -r requirements.txt
+```
+##### 4. Then, in cmd or Anaconda prompt write the following code:
+```bash
+python app.py
+```
+##### Make sure to change the directory to the root folder.  
