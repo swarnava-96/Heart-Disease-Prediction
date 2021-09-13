@@ -1,9 +1,9 @@
 # Heart-Disease-Prediction
 
-#### Goal: To create a POC using Flask, HTML and CSS for predicting whether a person is suffering from a Heart Disease or not, implementing Machine Learning algorithm.
+#### Goal: To create a POC using Flask, HTML and CSS for predicting whether a person is suffering from Heart Disease or not, implementing Machine Learning algorithm.
 
 ### About the Data set: 
-This is a machine learning project where we will predict whether a person is suffering from a heart disease or not. 
+This is a machine learning project where we will predict whether a person is suffering from heart disease or not. 
 The dataset was downloaded from [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci). The dataset has 13 independent features like:
 1. age
 2. sex
@@ -38,8 +38,7 @@ The third step was Feature Selection. As the dataset had only 13 idependent feat
 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang' were the features that got selected.
 
 The Forth step was Model Building. The dataset was divided into independent(X) and dependent(y) features. Train test split was performed for getting the train and test datasets.
-KNearestNeighbors classifier was applied on the training data after testing with other Machine Learning algorithmns.
-Initially the k value was set to 1. Predicton and validaion was performed on the test dataset.
+KNearestNeighbors classifier was applied on the training data after testing with other Machine Learning algorithmns. Initially the k value was set to 1. Predicton and validaion was performed on the test dataset.
 
 The fifth step was to perform Hyperparameter Optimization on our model. A range of k values was set and based on error and accuracy rate the best k value was selected.
 The main aim was to reduce the False Positives and the False Negatives. Model performed really good and validated based on classification report, confusion matrix and accuracy score.
@@ -49,7 +48,7 @@ The final step was to save the model as a pickle file to reuse it again for the 
 The "Heart Disease Prediction.ipynb" file contains all these informations.
 
 ### Deployment Architecture:
-The model was deployed locally (port 5000). The backend part of the application was made using Flask and for the frotend part HTML and CSS was used.
+The model was deployed locally (port: 5000). The backend part of the application was made using Flask and for the frotend part HTML and CSS was used.
 I have not focussed much on the frontend as I am not that good at it. The file "app.py" contains the entire flask code and inside the templates folder, "heart.html" contains the homepage and "result.html" contains the result page. 
 
 ### Installation:
@@ -73,12 +72,12 @@ python app.py
 ```
 ##### Make sure to change the directory to the root folder.  
 
-### A Glimpse of the application
+### A Glimpse of the application:
 ![Screenshot (149)](https://user-images.githubusercontent.com/75041273/133073173-c67f9e00-9ffc-42a5-83d0-04f69eda3f04.png)
 ![Screenshot (150)](https://user-images.githubusercontent.com/75041273/133073205-e421f491-1db9-45e7-9c4d-52d4acf151b8.png)
 ![Screenshot (151)](https://user-images.githubusercontent.com/75041273/133073229-94ea67ca-905a-4dc2-b73b-c90f6c251390.png)
 
-### Further Changes to be Done
+### Further Changes to be Done:
 - [ ] Including more features.
 - [ ] Deploying the Web Application on Cloud.
      - [ ] Google Cloud 
@@ -86,7 +85,7 @@ python app.py
      - [ ] Heroku
      - [ ] AWS
 
-### Technology Stack
+### Technology Stack:
 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen" /> <img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" /> ![Seaborn](https://img.shields.io/badge/Seaborn-%230C55A5.svg?style=for-the-badge&logo=seaborn&logoColor=%white)  <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /> <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" /> <img src="https://img.shields.io/badge/conda-342B029.svg?&style=for-the-badge&logo=anaconda&logoColor=white"/> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" />  <img src="https://img.shields.io/badge/matplotlib-342B029.svg?&style=for-the-badge&logo=matplotlib&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" /> <img src="https://img.shields.io/badge/Spyder-838485?style=for-the-badge&logo=spyder%20ide&logoColor=maroon" />
 
