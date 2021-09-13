@@ -1,6 +1,6 @@
 # Heart-Disease-Prediction
 
-#### Goal: To develop a POC using Flask, HTML and CSS for predicting whether a person is suffering from a Heart Disease or not, implementing Machine Learning algorithm.
+#### Goal: To create a POC using Flask, HTML and CSS for predicting whether a person is suffering from a Heart Disease or not, implementing Machine Learning algorithm.
 
 #### About the Data set: 
 This is a machine learning project where we will predict whether a person is suffering from a heart disease or not. 
