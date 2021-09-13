@@ -34,7 +34,7 @@ Scatter plots and distplots were among the others plots that was also helpful.
 The second step was to perform Feature Engneering. The initial step was to check for null values. Then, the data was divided into categorical and numerical features and One hot encoding was performed on the categorical features.
 Feature Scaling using Sklearn's Standard Scaler was performed on features 'trestbps', 'chol', 'thalach'. 
 
-The third step was Feature Selection. As the dataset had only 13 columns, features were selected manually based on domain knowledge.
+The third step was Feature Selection. As the dataset had only 13 idependent features, features were selected manually based on domain knowledge.
 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang' were the features that got selected.
 
 The Forth step was Model Building. The dataset was divided into independent(X) and dependent(y) features. Train test split was performed for getting the train and test datasets.
